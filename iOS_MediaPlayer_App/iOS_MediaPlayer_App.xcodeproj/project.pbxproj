@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9DA2D5E2AE2DD45005683E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D5D2AE2DD45005683E9 /* AppDelegate.swift */; };
+		C9DA2D602AE2DD45005683E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D5F2AE2DD45005683E9 /* SceneDelegate.swift */; };
+		C9DA2D622AE2DD45005683E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D612AE2DD45005683E9 /* ViewController.swift */; };
+		C9DA2D652AE2DD45005683E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DA2D632AE2DD45005683E9 /* Main.storyboard */; };
+		C9DA2D672AE2DD46005683E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DA2D662AE2DD46005683E9 /* Assets.xcassets */; };
+		C9DA2D6A2AE2DD46005683E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DA2D682AE2DD46005683E9 /* LaunchScreen.storyboard */; };
+		C9DA2D752AE2DD46005683E9 /* iOS_MediaPlayer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D742AE2DD46005683E9 /* iOS_MediaPlayer_AppTests.swift */; };
+		C9DA2D7F2AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D7E2AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests.swift */; };
+		C9DA2D812AE2DD46005683E9 /* iOS_MediaPlayer_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D802AE2DD46005683E9 /* iOS_MediaPlayer_AppUITestsLaunchTests.swift */; };
+		C9DA2D922AE2DD85005683E9 /* MediaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D902AE2DD85005683E9 /* MediaListViewController.swift */; };
+		C9DA2D932AE2DD85005683E9 /* MediaListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9DA2D912AE2DD85005683E9 /* MediaListViewController.xib */; };
+		C9DA2D952AE2DD94005683E9 /* MediaListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D942AE2DD94005683E9 /* MediaListViewModel.swift */; };
+		C9DA2D972AE2DDAA005683E9 /* MediaListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D962AE2DDAA005683E9 /* MediaListResponseModel.swift */; };
+		C9DA2D992AE2DDD8005683E9 /* ServiceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D982AE2DDD8005683E9 /* ServiceLoader.swift */; };
+		C9DA2D9C2AE2DE3F005683E9 /* MediaListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D9A2AE2DE3F005683E9 /* MediaListTableViewCell.swift */; };
+		C9DA2D9D2AE2DE3F005683E9 /* MediaListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9DA2D9B2AE2DE3F005683E9 /* MediaListTableViewCell.xib */; };
+		C9DA2DA02AE2E7EA005683E9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2D9F2AE2E7EA005683E9 /* Router.swift */; };
+		C9DA2DA22AE2EB49005683E9 /* MovieListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA2DA12AE2EB49005683E9 /* MovieListViewModelTests.swift */; };
+		C9DA2DA42AE2EDD1005683E9 /* MediaListTestResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = C9DA2DA32AE2EDD1005683E9 /* MediaListTestResponse.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9DA2D712AE2DD46005683E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9DA2D522AE2DD45005683E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DA2D592AE2DD45005683E9;
+			remoteInfo = iOS_MediaPlayer_App;
+		};
+		C9DA2D7B2AE2DD46005683E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9DA2D522AE2DD45005683E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DA2D592AE2DD45005683E9;
+			remoteInfo = iOS_MediaPlayer_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9DA2D5A2AE2DD45005683E9 /* iOS_MediaPlayer_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_MediaPlayer_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DA2D5D2AE2DD45005683E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9DA2D5F2AE2DD45005683E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9DA2D612AE2DD45005683E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9DA2D642AE2DD45005683E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9DA2D662AE2DD46005683E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9DA2D692AE2DD46005683E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9DA2D6B2AE2DD46005683E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DA2D702AE2DD46005683E9 /* iOS_MediaPlayer_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_MediaPlayer_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DA2D742AE2DD46005683E9 /* iOS_MediaPlayer_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_MediaPlayer_AppTests.swift; sourceTree = "<group>"; };
+		C9DA2D7A2AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_MediaPlayer_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DA2D7E2AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_MediaPlayer_AppUITests.swift; sourceTree = "<group>"; };
+		C9DA2D802AE2DD46005683E9 /* iOS_MediaPlayer_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_MediaPlayer_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9DA2D902AE2DD85005683E9 /* MediaListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListViewController.swift; sourceTree = "<group>"; };
+		C9DA2D912AE2DD85005683E9 /* MediaListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaListViewController.xib; sourceTree = "<group>"; };
+		C9DA2D942AE2DD94005683E9 /* MediaListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListViewModel.swift; sourceTree = "<group>"; };
+		C9DA2D962AE2DDAA005683E9 /* MediaListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListResponseModel.swift; sourceTree = "<group>"; };
+		C9DA2D982AE2DDD8005683E9 /* ServiceLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLoader.swift; sourceTree = "<group>"; };
+		C9DA2D9A2AE2DE3F005683E9 /* MediaListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListTableViewCell.swift; sourceTree = "<group>"; };
+		C9DA2D9B2AE2DE3F005683E9 /* MediaListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaListTableViewCell.xib; sourceTree = "<group>"; };
+		C9DA2D9F2AE2E7EA005683E9 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		C9DA2DA12AE2EB49005683E9 /* MovieListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModelTests.swift; sourceTree = "<group>"; };
+		C9DA2DA32AE2EDD1005683E9 /* MediaListTestResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MediaListTestResponse.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9DA2D572AE2DD45005683E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DA2D6D2AE2DD46005683E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DA2D772AE2DD46005683E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9DA2D512AE2DD45005683E9 = {
+			isa = PBXGroup;
+			children = (
+				C9DA2D5C2AE2DD45005683E9 /* iOS_MediaPlayer_App */,
+				C9DA2D732AE2DD46005683E9 /* iOS_MediaPlayer_AppTests */,
+				C9DA2D7D2AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests */,
+				C9DA2D5B2AE2DD45005683E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9DA2D5B2AE2DD45005683E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9DA2D5A2AE2DD45005683E9 /* iOS_MediaPlayer_App.app */,
+				C9DA2D702AE2DD46005683E9 /* iOS_MediaPlayer_AppTests.xctest */,
+				C9DA2D7A2AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9DA2D5C2AE2DD45005683E9 /* iOS_MediaPlayer_App */ = {
+			isa = PBXGroup;
+			children = (
+				C9DA2D9E2AE2E7D9005683E9 /* Router */,
+				C9DA2D8F2AE2DD5F005683E9 /* MediaPlayer */,
+				C9DA2D8D2AE2DD4C005683E9 /* MediaList */,
+				C9DA2D5D2AE2DD45005683E9 /* AppDelegate.swift */,
+				C9DA2D5F2AE2DD45005683E9 /* SceneDelegate.swift */,
+				C9DA2D612AE2DD45005683E9 /* ViewController.swift */,
+				C9DA2D632AE2DD45005683E9 /* Main.storyboard */,
+				C9DA2D662AE2DD46005683E9 /* Assets.xcassets */,
+				C9DA2D682AE2DD46005683E9 /* LaunchScreen.storyboard */,
+				C9DA2D6B2AE2DD46005683E9 /* Info.plist */,
+				C9DA2D982AE2DDD8005683E9 /* ServiceLoader.swift */,
+			);
+			path = iOS_MediaPlayer_App;
+			sourceTree = "<group>";
+		};
+		C9DA2D732AE2DD46005683E9 /* iOS_MediaPlayer_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9DA2DA32AE2EDD1005683E9 /* MediaListTestResponse.json */,
+				C9DA2D742AE2DD46005683E9 /* iOS_MediaPlayer_AppTests.swift */,
+				C9DA2DA12AE2EB49005683E9 /* MovieListViewModelTests.swift */,
+			);
+			path = iOS_MediaPlayer_AppTests;
+			sourceTree = "<group>";
+		};
+		C9DA2D7D2AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9DA2D7E2AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests.swift */,
+				C9DA2D802AE2DD46005683E9 /* iOS_MediaPlayer_AppUITestsLaunchTests.swift */,
+			);
+			path = iOS_MediaPlayer_AppUITests;
+			sourceTree = "<group>";
+		};
+		C9DA2D8D2AE2DD4C005683E9 /* MediaList */ = {
+			isa = PBXGroup;
+			children = (
+				C9DA2D902AE2DD85005683E9 /* MediaListViewController.swift */,
+				C9DA2D912AE2DD85005683E9 /* MediaListViewController.xib */,
+				C9DA2D942AE2DD94005683E9 /* MediaListViewModel.swift */,
+				C9DA2D962AE2DDAA005683E9 /* MediaListResponseModel.swift */,
+				C9DA2D9A2AE2DE3F005683E9 /* MediaListTableViewCell.swift */,
+				C9DA2D9B2AE2DE3F005683E9 /* MediaListTableViewCell.xib */,
+			);
+			path = MediaList;
+			sourceTree = "<group>";
+		};
+		C9DA2D8F2AE2DD5F005683E9 /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		C9DA2D9E2AE2E7D9005683E9 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C9DA2D9F2AE2E7EA005683E9 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9DA2D592AE2DD45005683E9 /* iOS_MediaPlayer_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DA2D842AE2DD46005683E9 /* Build configuration list for PBXNativeTarget "iOS_MediaPlayer_App" */;
+			buildPhases = (
+				C9DA2D562AE2DD45005683E9 /* Sources */,
+				C9DA2D572AE2DD45005683E9 /* Frameworks */,
+				C9DA2D582AE2DD45005683E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_MediaPlayer_App;
+			productName = iOS_MediaPlayer_App;
+			productReference = C9DA2D5A2AE2DD45005683E9 /* iOS_MediaPlayer_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9DA2D6F2AE2DD46005683E9 /* iOS_MediaPlayer_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DA2D872AE2DD46005683E9 /* Build configuration list for PBXNativeTarget "iOS_MediaPlayer_AppTests" */;
+			buildPhases = (
+				C9DA2D6C2AE2DD46005683E9 /* Sources */,
+				C9DA2D6D2AE2DD46005683E9 /* Frameworks */,
+				C9DA2D6E2AE2DD46005683E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9DA2D722AE2DD46005683E9 /* PBXTargetDependency */,
+			);
+			name = iOS_MediaPlayer_AppTests;
+			productName = iOS_MediaPlayer_AppTests;
+			productReference = C9DA2D702AE2DD46005683E9 /* iOS_MediaPlayer_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9DA2D792AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DA2D8A2AE2DD46005683E9 /* Build configuration list for PBXNativeTarget "iOS_MediaPlayer_AppUITests" */;
+			buildPhases = (
+				C9DA2D762AE2DD46005683E9 /* Sources */,
+				C9DA2D772AE2DD46005683E9 /* Frameworks */,
+				C9DA2D782AE2DD46005683E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9DA2D7C2AE2DD46005683E9 /* PBXTargetDependency */,
+			);
+			name = iOS_MediaPlayer_AppUITests;
+			productName = iOS_MediaPlayer_AppUITests;
+			productReference = C9DA2D7A2AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9DA2D522AE2DD45005683E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C9DA2D592AE2DD45005683E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C9DA2D6F2AE2DD46005683E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C9DA2D592AE2DD45005683E9;
+					};
+					C9DA2D792AE2DD46005683E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C9DA2D592AE2DD45005683E9;
+					};
+				};
+			};
+			buildConfigurationList = C9DA2D552AE2DD45005683E9 /* Build configuration list for PBXProject "iOS_MediaPlayer_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9DA2D512AE2DD45005683E9;
+			productRefGroup = C9DA2D5B2AE2DD45005683E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9DA2D592AE2DD45005683E9 /* iOS_MediaPlayer_App */,
+				C9DA2D6F2AE2DD46005683E9 /* iOS_MediaPlayer_AppTests */,
+				C9DA2D792AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9DA2D582AE2DD45005683E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DA2D6A2AE2DD46005683E9 /* LaunchScreen.storyboard in Resources */,
+				C9DA2D672AE2DD46005683E9 /* Assets.xcassets in Resources */,
+				C9DA2D652AE2DD45005683E9 /* Main.storyboard in Resources */,
+				C9DA2D9D2AE2DE3F005683E9 /* MediaListTableViewCell.xib in Resources */,
+				C9DA2D932AE2DD85005683E9 /* MediaListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DA2D6E2AE2DD46005683E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DA2DA42AE2EDD1005683E9 /* MediaListTestResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DA2D782AE2DD46005683E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9DA2D562AE2DD45005683E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DA2D622AE2DD45005683E9 /* ViewController.swift in Sources */,
+				C9DA2D972AE2DDAA005683E9 /* MediaListResponseModel.swift in Sources */,
+				C9DA2D992AE2DDD8005683E9 /* ServiceLoader.swift in Sources */,
+				C9DA2D5E2AE2DD45005683E9 /* AppDelegate.swift in Sources */,
+				C9DA2DA02AE2E7EA005683E9 /* Router.swift in Sources */,
+				C9DA2D602AE2DD45005683E9 /* SceneDelegate.swift in Sources */,
+				C9DA2D952AE2DD94005683E9 /* MediaListViewModel.swift in Sources */,
+				C9DA2D9C2AE2DE3F005683E9 /* MediaListTableViewCell.swift in Sources */,
+				C9DA2D922AE2DD85005683E9 /* MediaListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DA2D6C2AE2DD46005683E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DA2D752AE2DD46005683E9 /* iOS_MediaPlayer_AppTests.swift in Sources */,
+				C9DA2DA22AE2EB49005683E9 /* MovieListViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DA2D762AE2DD46005683E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DA2D812AE2DD46005683E9 /* iOS_MediaPlayer_AppUITestsLaunchTests.swift in Sources */,
+				C9DA2D7F2AE2DD46005683E9 /* iOS_MediaPlayer_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9DA2D722AE2DD46005683E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9DA2D592AE2DD45005683E9 /* iOS_MediaPlayer_App */;
+			targetProxy = C9DA2D712AE2DD46005683E9 /* PBXContainerItemProxy */;
+		};
+		C9DA2D7C2AE2DD46005683E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9DA2D592AE2DD45005683E9 /* iOS_MediaPlayer_App */;
+			targetProxy = C9DA2D7B2AE2DD46005683E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9DA2D632AE2DD45005683E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9DA2D642AE2DD45005683E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9DA2D682AE2DD46005683E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9DA2D692AE2DD46005683E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9DA2D822AE2DD46005683E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9DA2D832AE2DD46005683E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9DA2D852AE2DD46005683E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJQUCPA7M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS_MediaPlayer_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankit.com.iOS-MediaPlayer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9DA2D862AE2DD46005683E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJQUCPA7M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS_MediaPlayer_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankit.com.iOS-MediaPlayer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9DA2D882AE2DD46005683E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankit.com.iOS-MediaPlayer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_MediaPlayer_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS_MediaPlayer_App";
+			};
+			name = Debug;
+		};
+		C9DA2D892AE2DD46005683E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankit.com.iOS-MediaPlayer-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_MediaPlayer_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS_MediaPlayer_App";
+			};
+			name = Release;
+		};
+		C9DA2D8B2AE2DD46005683E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankit.com.iOS-MediaPlayer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_MediaPlayer_App;
+			};
+			name = Debug;
+		};
+		C9DA2D8C2AE2DD46005683E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankit.com.iOS-MediaPlayer-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_MediaPlayer_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9DA2D552AE2DD45005683E9 /* Build configuration list for PBXProject "iOS_MediaPlayer_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DA2D822AE2DD46005683E9 /* Debug */,
+				C9DA2D832AE2DD46005683E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DA2D842AE2DD46005683E9 /* Build configuration list for PBXNativeTarget "iOS_MediaPlayer_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DA2D852AE2DD46005683E9 /* Debug */,
+				C9DA2D862AE2DD46005683E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DA2D872AE2DD46005683E9 /* Build configuration list for PBXNativeTarget "iOS_MediaPlayer_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DA2D882AE2DD46005683E9 /* Debug */,
+				C9DA2D892AE2DD46005683E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DA2D8A2AE2DD46005683E9 /* Build configuration list for PBXNativeTarget "iOS_MediaPlayer_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DA2D8B2AE2DD46005683E9 /* Debug */,
+				C9DA2D8C2AE2DD46005683E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9DA2D522AE2DD45005683E9 /* Project object */;
+}

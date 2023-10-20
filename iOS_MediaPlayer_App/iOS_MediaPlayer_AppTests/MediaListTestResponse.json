@@ -1,0 +1,16 @@
+
+{
+  "array": [
+    {
+      "title": "title1",
+      "album": "album1",
+      "url": "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3",
+      "artist": "artist1"
+    },
+    {
+      "title": "title2",
+      "album": "album2",
+      "url": "https://www.learningcontainer.com/wp-content/uploads/2020/02/Sample-FLAC-File.flac",
+      "artist": "artist2"
+    }
+  ]
